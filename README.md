@@ -114,7 +114,7 @@ Airflow orchestrates the pipeline by scheduling dbt models to run on a daily bas
 
 6. **Set Up Airflow**
 
-   Configure Airflow to orchestrate the pipeline by updating the Airflow **DAG** file (`dbt_dag.py`). Make sure the `snowflake_conn` connection in Airflow UI has the correct Snowflake credentials.
+   Configure Airflow to orchestrate the pipeline by updating the Airflow **DAG** file (`dag1.py`). Make sure the `snowflake_conn` connection in Airflow UI has the correct Snowflake credentials.
 
 7. **Deploy the DAG**
 
