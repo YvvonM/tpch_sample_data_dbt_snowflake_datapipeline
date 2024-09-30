@@ -1,0 +1,15 @@
+# Airflow base installation
+apache-airflow==2.7.0  # (or your installed version)
+
+# dbt integration
+dbt-core==1.4.0  # or your specific version
+dbt-snowflake==1.4.0  # specific to Snowflake, adjust if using another dbt adapter
+
+# Additional operators/libraries for task execution
+apache-airflow-providers-snowflake==3.4.1  # For Snowflake integration with Airflow
+apache-airflow-providers-postgres==3.5.1   # (Optional) For Postgres integration
+apache-airflow-providers-amazon==6.1.0     # (Optional) For AWS integrations
+
+
+
+
