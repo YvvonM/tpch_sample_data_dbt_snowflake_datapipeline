@@ -32,8 +32,8 @@ The project uses **dbt macros** to avoid duplicating transformation logic. For e
 
 ### 5. **Transform Models (Data Marts)**
 
-- **Intermediate Tables**: Join multiple staging models and apply business logic to calculate new metrics, like discounted amounts and gross sales.
-- **Fact Tables**: Finalized tables like `fct_orders` aggregate key metrics, ready for use in analytics or BI tools.
+- **Intermediate Tables**: Join multiple staging models and apply business logic to calculate new metrics
+
 
 ### 6. **Data Quality Testing**
 
